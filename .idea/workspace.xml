@@ -20,29 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5604e10-f23b-4b5b-907b-23307cf8cf02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TodoPhP/app/Models/Attachment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoPhP/app/Models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoPhP/app/Models/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoPhP/app/Models/Task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoPhP/database/migrations/2020_10_11_190633_create_tasks_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoPhP/database/migrations/2020_10_11_191131_create_attachment_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoPhP/database/migrations/2020_10_11_191305_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoPhP/database/seeders/CategorySeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TodoPhP/database/seeders/UserSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aff0836-cde4-44f7-b19c-f22dbdecf0c8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aff0836-cde4-44f7-b19c-f22dbdecf0c8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aff0836-cde4-44f7-b19c-f22dbdecf0c8/storage_v2/_src_/schema/laravel_TODO.DHqJHg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoPhP/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodoPhP/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoPhP/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodoPhP/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoPhP/database/migrations/2014_10_12_100000_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/TodoPhP/database/migrations/2020_10_11_191032_create_comments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TodoPhP/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -195,7 +183,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602438219307</updated>
-      <workItem from="1602438220460" duration="12109000" />
+      <workItem from="1602438220460" duration="12748000" />
+      <workItem from="1602590002581" duration="930000" />
     </task>
     <servers />
   </component>
@@ -212,6 +201,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
