@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5604e10-f23b-4b5b-907b-23307cf8cf02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aff0836-cde4-44f7-b19c-f22dbdecf0c8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aff0836-cde4-44f7-b19c-f22dbdecf0c8/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1aff0836-cde4-44f7-b19c-f22dbdecf0c8/storage_v2/_src_/schema/laravel_TODO.DHqJHg.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TodoPhP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TodoPhP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,6 +150,7 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
       <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ik4O2VHq3V9QaH0vgXdYDD4hJP" />
@@ -167,6 +169,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -184,7 +187,12 @@
       <option name="presentableId" value="Default" />
       <updated>1602438219307</updated>
       <workItem from="1602438220460" duration="12748000" />
-      <workItem from="1602590002581" duration="930000" />
+      <workItem from="1602590002581" duration="2387000" />
+      <workItem from="1602594666371" duration="3140000" />
+      <workItem from="1603440037896" duration="299000" />
+      <workItem from="1603440362548" duration="4061000" />
+      <workItem from="1603464161833" duration="244000" />
+      <workItem from="1603464420839" duration="2614000" />
     </task>
     <servers />
   </component>
@@ -215,30 +223,38 @@
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
     <state x="555" y="198" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1020@0.27.1920.1020" timestamp="1602442688307" />
+    <state x="643" y="272" width="624" height="537" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1603440108074">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="643" y="272" width="624" height="537" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.27.1920.1020@0.27.1920.1020" timestamp="1603440108074" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1602442450920">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.27.1920.1020@0.27.1920.1020" timestamp="1602442450919" />
-    <state width="634" height="264" key="GridCell.Tab.0.bottom" timestamp="1602442635915">
+    <state width="1872" height="264" key="GridCell.Tab.0.bottom" timestamp="1602593526397">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="634" height="264" key="GridCell.Tab.0.bottom/0.27.1920.1020@0.27.1920.1020" timestamp="1602442635915" />
-    <state width="634" height="264" key="GridCell.Tab.0.center" timestamp="1602442635914">
+    <state width="1872" height="264" key="GridCell.Tab.0.bottom/0.27.1920.1020@0.27.1920.1020" timestamp="1602593526397" />
+    <state width="1872" height="264" key="GridCell.Tab.0.center" timestamp="1602593526396">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="634" height="264" key="GridCell.Tab.0.center/0.27.1920.1020@0.27.1920.1020" timestamp="1602442635914" />
-    <state width="634" height="264" key="GridCell.Tab.0.left" timestamp="1602442635914">
+    <state width="1872" height="264" key="GridCell.Tab.0.center/0.27.1920.1020@0.27.1920.1020" timestamp="1602593526396" />
+    <state width="1872" height="264" key="GridCell.Tab.0.left" timestamp="1602593526396">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="634" height="264" key="GridCell.Tab.0.left/0.27.1920.1020@0.27.1920.1020" timestamp="1602442635914" />
-    <state width="634" height="264" key="GridCell.Tab.0.right" timestamp="1602442635914">
+    <state width="1872" height="264" key="GridCell.Tab.0.left/0.27.1920.1020@0.27.1920.1020" timestamp="1602593526396" />
+    <state width="1872" height="264" key="GridCell.Tab.0.right" timestamp="1602593526397">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
-    <state width="634" height="264" key="GridCell.Tab.0.right/0.27.1920.1020@0.27.1920.1020" timestamp="1602442635914" />
+    <state width="1872" height="264" key="GridCell.Tab.0.right/0.27.1920.1020@0.27.1920.1020" timestamp="1602593526397" />
     <state width="259" height="542" key="HiddenNamespacesPopup" timestamp="1602441690619">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
     <state width="259" height="542" key="HiddenNamespacesPopup/0.27.1920.1020@0.27.1920.1020" timestamp="1602441690619" />
+    <state x="456" y="172" width="1007" height="737" key="SettingsEditor" timestamp="1603464830737">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="456" y="172" width="1007" height="737" key="SettingsEditor/0.27.1920.1020@0.27.1920.1020" timestamp="1603464830737" />
     <state x="859" y="413" width="192" height="255" key="com.intellij.database.actions.DdlActions$CreateObject$1" timestamp="1602442266190">
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
