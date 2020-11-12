@@ -47,4 +47,16 @@ class User extends Authenticatable
     {
         return $this->hasMany('App/Models/Comment');
     }
+
+    public function owner()
+    {
+        return $this->belongsTo('App/Models/Board');
+    }
+
+    public function board_user()
+    {
+        return $this->belongsTo('App/Models/Board');
+    }
+
+
 }

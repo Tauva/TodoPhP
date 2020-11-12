@@ -18,7 +18,10 @@ class Task extends Model
         'state',
     ];
 
-
+    public function testDatabase()
+    {
+        $task = Task::factory()->make();
+    }
 
     public function comments()
     {
@@ -53,5 +56,10 @@ class Task extends Model
     public function put()
     {
         return $this->hasMany("App/Models/Attachment");
+    }
+
+    public function board_task()
+    {
+        return $this->belongsTo("/App/Models/Board");
     }
 }
