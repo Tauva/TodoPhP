@@ -21,31 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f5604e10-f23b-4b5b-907b-23307cf8cf02" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Board.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/factories/TaskFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_11_05_135855_create_boards_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/relations/AttachmentTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/relations/BoardTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/relations/BoardUserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/relations/CategoryTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/relations/CommentTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/relations/TaskTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/relations/TaskUserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Feature/relations/UserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/database/AttachmentTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/database/BoardTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/database/BoardUserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/database/CategoryTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/database/CommentTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/database/TaskTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/database/TaskUserTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Unit/database/UserTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.phpunit.result.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.phpunit.result.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/TaskFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/TaskFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_11_190633_create_tasks_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_11_190633_create_tasks_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_05_135855_create_boards_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_05_135855_create_boards_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +196,7 @@
       <workItem from="1603464420839" duration="2614000" />
       <workItem from="1604581292099" duration="6771000" />
       <workItem from="1604877409566" duration="1723000" />
-      <workItem from="1605080071898" duration="6185000" />
+      <workItem from="1605080071898" duration="11873000" />
     </task>
     <servers />
   </component>
@@ -291,5 +271,9 @@
       <screen x="0" y="27" width="1920" height="1020" />
     </state>
     <state x="814" y="277" width="282" height="526" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.27.1920.1020@0.27.1920.1020" timestamp="1602442284942" />
+    <state x="624" y="244" key="run.anything.popup" timestamp="1605174492791">
+      <screen x="0" y="27" width="1920" height="1020" />
+    </state>
+    <state x="624" y="244" key="run.anything.popup/0.27.1920.1020@0.27.1920.1020" timestamp="1605174492791" />
   </component>
 </project>

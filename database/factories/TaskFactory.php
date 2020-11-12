@@ -22,6 +22,7 @@ class TaskFactory extends Factory
     public function definition()
     {
         return [
+            'id' => $this->faker->randomDigitNotNull,
             'title' => $this->faker->word,
             'description' => $this->faker->text(100),
             'due_date' => $this->faker->dateTimeInInterval('now','+15 days'),
