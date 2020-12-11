@@ -27,6 +27,9 @@ class BoardTest extends TestCase
         
         // Méthode 2: Le nombre de propiétaires de la board est bien égal à 1
         $this->assertEquals(1, $board->owner()->count());
+
+        //Aide : 
+        $this->assertInstanceOf('\Illuminate\Database\Eloquent\Relations\BelongsTo', $board->owner());
     }
 
 
@@ -44,10 +47,13 @@ class BoardTest extends TestCase
                         ->create();
             
         // Test 1 : Le nombre d'utilisateur de la board est bien égal à $nb (le jeu de données fourni dans la fonction).
-        $this->assertEquals($nb, $board->users->count());
+        //$this->assertEquals($nb, $board->users->count()); // On supprime ce test car maintenant le owner fait parti des participants.
 
         // Test 2: Les utilisateurs sont bien liés à la board et sont bien une collection.
         $this->assertInstanceOf('Illuminate\Database\Eloquent\Collection', $board->users);
+
+        //Aide : 
+        $this->assertInstanceOf('\Illuminate\Database\Eloquent\Relations\BelongsToMany', $board->users());
     }
 
 
@@ -68,6 +74,9 @@ class BoardTest extends TestCase
 
         // Test 2: Les tâches sont bien liés à la board et sont bien une collection.
         $this->assertInstanceOf('Illuminate\Database\Eloquent\Collection', $board->tasks);
+
+        //Aide : 
+        $this->assertInstanceOf('\Illuminate\Database\Eloquent\Relations\HasMany', $board->tasks());
     }
     
     /**
@@ -83,5 +92,24 @@ class BoardTest extends TestCase
         $this->assertInstanceOf('Illuminate\Database\Eloquent\Relations\Pivot', $board->users()->first()->pivot);
     }
 
+    /**
+     * 
+     * L'utilisateur qui créé un board est aussi participant
+     * 
+     * @return void
+     * 
+     */
+    public function testBoardOwnerIsAlsoParticipant() {
+        // On créé un utilisateur
+        $user = User::factory()->create(); 
+        // On créé un board qui appartient à l'utilisateur
+        $board = Board::factory()->create(['user_id' => $user->id]);
+
+        // Le board crée n'a qu'un seul participant lors de la création du board : son propriétaire
+        $this->assertEquals($board->users->count(), 1);
+
+        //La table board_user contient bien le board et l'utilisateur
+        $this->assertDatabaseHas('board_user', ['user_id' => $user->id, 'board_id' => $board->id]);
+    }
 
 }
